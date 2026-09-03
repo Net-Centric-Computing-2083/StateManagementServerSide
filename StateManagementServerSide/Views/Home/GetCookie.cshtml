@@ -1,0 +1,12 @@
+﻿<h2>Student Information</h2>
+
+@if(ViewBag.Name != null)
+{
+    <p><strong>Name:</strong> @ViewBag.Name</p>
+    <p><strong>Age:</strong> @ViewBag.Age</p>
+    <p><strong>Address:</strong> @ViewBag.Address</p>
+}
+else
+{
+    <p>No student information available.</p>
+}
